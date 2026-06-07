@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eco-tracker</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>This is your eco-tracker !</h1>
+
+        <div class="eco-score">
+            <p>you're eco score: <span id="score">0</span> XP</p>
+        </div>
+
+        <div class="action-btn">
+            <button class="activebtn" data-points="10">You refused a trash (+10XP)</button>
+            <button class="activebtn" data-points="15">Turned off unused lights (+15 XP)</button>
+            <button class="activebtn" data-points="25">Used bike or walked instead of a car(+25XP)</button>
+            <button class="activebtn" data-points="35">Sorted plastic/paper garbage (+35 XP)</button>
+
+            <button id="resetbtn">Reset my progress</button>
+        </div>
+    </div>
+</body>
+</html>
